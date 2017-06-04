@@ -32,14 +32,14 @@ var gulp = require('gulp'),
 	this.JS_SRC_STAGING = ['app/libs/js/**/*.js','app/js/app.js', 'app/js/**/*.js'],      // 0 index must be vendor libs for convention sake
 	this.JS_SRC_PROD = ['app/libs/js/**/*.js', 'app/js/app.js', 'app/js/**/*.js'],      // 0 index must be vendor libs for convention sake
 
-	this.DIST_SRC = 'static',	// specific to spring-starter-project. change to suit your project needs.
+	this.DIST_SRC = 'public',	// specific to spring-starter-project. change to suit your project needs.
 
 	//Destination	
 	this.PARTIALS_DEST = 'app/js/bin/template',
 	this.FONTS_DEST = this.DIST_SRC + '/fonts',
-	this.IMAGES_DEST = this.DIST_SRC + '/img',
-	this.JS_DEST = this.DIST_SRC + '/js',
-	this.CSS_DEST = this.DIST_SRC + '/css',
+	this.IMAGES_DEST = this.DIST_SRC + '/images',
+	this.JS_DEST = this.DIST_SRC + '/javascripts',
+	this.CSS_DEST = this.DIST_SRC + '/stylesheets',
 
 	this.JS_DEST_NAME = 'app.min.js',
 	this.CSS_DEST_NAME = 'app.min.css',

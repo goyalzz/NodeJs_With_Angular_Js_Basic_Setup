@@ -46,6 +46,5 @@
         </md-card>
         </article>
 
-
     </div>
 

@@ -10,24 +10,8 @@ web-api/WebApi.iml
 com.opendmp.iml
 *.iml
 
-front-end/app/js/bin/template/templates.js
-front-end/app/css
+app/js/bin/template/templates.js
+app/css
 
-front-end/node_modules/
-front-end/npm-debug.log
-front-end/appDetail/css
-front-end/.idea/
-
-.idea/*
-analytics/.idea/
-target/*
-TravelyftDMP.iml
-Backend/Backend.iml
-dcs/Dcs.iml
-
-
-.DS_Store
-analytics/src/main/java/
-cross-chennel/CrossChennel.iml
-fraud-detection/
-data-platform/target/
+node_modules/
+npm-debug.log

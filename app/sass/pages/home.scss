@@ -6,7 +6,7 @@
         background-repeat: no-repeat;
         position: relative;
         background-size: 100% 100%;
-        background-image: url(../img/home_page_Bg.png);
+        background-image: url(/images/home_page_Bg.png);
         .title {
             font-size: $text-xxxl;
         }
@@ -18,7 +18,7 @@
             .logo {
             	height: 35px;
                 width: 130px;
-                background-image: url(../img/logo_fliplearn.png);
+                background-image: url(/images/logo_fliplearn.png);
                 background-repeat: no-repeat;
             }
         }
