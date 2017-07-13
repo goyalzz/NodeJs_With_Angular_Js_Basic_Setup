@@ -5,8 +5,8 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-require('./mongoose/Connector.js');
-require('./utils/CronJob.js');
+// require('./mongoose/Connector.js');
+// require('./utils/CronJob.js');
 
 var index = require('./routes/index');
 var api = require('./routes/api');
